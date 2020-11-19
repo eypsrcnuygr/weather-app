@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server --mode development"
+    "dev": "webpack serve --mode development"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,11 @@
   "homepage": "https://github.com/eypsrcnuygr/weather-app#readme",
   "dependencies": {
     "autoprefixer": "^10.0.2",
-    "dotenv": "^8.2.0",
     "path-browserify": "^1.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
