@@ -19,8 +19,8 @@ To get this project up and running locally, you must have node installed on your
 
 **Setup**
 
-- Clone this repository with ```git clone git@github.com:eypsrcnuygr/weather-app.git``` using your terminal or command line.<br>
-- Change to the project directory by entering ```cd weather-app``` in the terminal<br>
+- Clone this repository with ```git clone git@github.com:eypsrcnuygr/weather-app2.git``` using your terminal or command line.<br>
+- Change to the project directory by entering ```cd weather-app2``` in the terminal<br>
 - Next run ```npm install``` to install the necessary dependencies<br>
 - Run ```npm run watch``` to have the necessary changes applied if you want to change anything in the codebase and to have a main.js file. Without this command, the app won't run.
 - Finally run the 'index.html' with 'Live Server' to start the application.<br>
