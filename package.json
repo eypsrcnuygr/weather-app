@@ -6,12 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-<<<<<<< HEAD
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server --mode development"
-=======
-    "watch": "webpack --watch"
->>>>>>> 2c7143f913fbe78f81b05b6508ee8f16388e9dd1
+    "dev": "webpack serve --mode development"
   },
   "repository": {
     "type": "git",
@@ -23,17 +19,13 @@
     "url": "https://github.com/eypsrcnuygr/weather-app/issues"
   },
   "homepage": "https://github.com/eypsrcnuygr/weather-app#readme",
-<<<<<<< HEAD
   "dependencies": {
     "autoprefixer": "^10.0.2",
-    "dotenv": "^8.2.0",
     "path-browserify": "^1.0.1"
   },
-=======
-  "dependencies": {},
->>>>>>> 2c7143f913fbe78f81b05b6508ee8f16388e9dd1
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
@@ -47,12 +39,8 @@
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.17.2",
     "webpack": "^5.5.1",
-<<<<<<< HEAD
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-node-externals": "^2.5.2"
-=======
-    "webpack-cli": "^4.2.0"
->>>>>>> 2c7143f913fbe78f81b05b6508ee8f16388e9dd1
   }
 }
