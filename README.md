@@ -1,6 +1,6 @@
 # Project-Library
 
-This is the fourth project on the Microverse JavaScript curriculum, to learn asynchronous behaviours of Javascript and APIs.
+This is the fourth project on the Microverse JavaScript curriculum, to learn asynchronous behaviours of Javascript and APIs...
 
 ![screenshot](./src/assets/Screenshot1.png)<br>
 
