@@ -1,3 +1,7 @@
 node_modules
+<<<<<<< HEAD
 /dist/main.js.map
 .env
+=======
+/dist/main.js.map
+>>>>>>> 2c7143f913fbe78f81b05b6508ee8f16388e9dd1

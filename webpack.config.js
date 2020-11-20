@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 const dotenv = require('dotenv').config({ path: `${__dirname}/.env` });
 const path = require('path');
 const webpack = require('webpack');
 
+=======
+const path = require('path');
+>>>>>>> 2c7143f913fbe78f81b05b6508ee8f16388e9dd1
 
 module.exports = {
   entry: './src/index.js',

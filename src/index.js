@@ -14,3 +14,4 @@ console.log(envVariables);
 // }
 
 // getReq();
+console.log('sercan');
