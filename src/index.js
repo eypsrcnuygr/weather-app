@@ -18,10 +18,12 @@ document.querySelector('.btn').addEventListener('click', () => {
   (async () => {
     const cityDetails = await getReq(city);
     if (cityDetails.name) {
+      const colors = ['#F0F8FF', '#FAEBD7', '#FF7F50', '#008B8B', '#556B2F', '#8B008B', '#00CED1', '#FFD700', '#FAF0E6', '#DA70D6'];
       document.querySelector('.theData').innerHTML = `The weather is ${cityDetails.weather[0].main}`;
       document.querySelector('.theData2').innerHTML = `${cityDetails.main.temp} average Temp Celcius`;
       document.querySelector('.theData3').innerHTML = `${cityDetails.main.temp_max} max Temp Celcius`;
       document.querySelector('.toggler').classList.remove('d-none');
+      document.body.setAttribute('style', `background-color: ${colors[Math.floor((Math.random() * 10) + 1)]}`);
     } else {
       document.querySelector('.error').innerHTML = cityDetails.message;
     }

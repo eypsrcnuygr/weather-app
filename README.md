@@ -23,6 +23,8 @@ To get this project up and running locally, you must have node installed on your
 - Change to the project directory by entering ```cd weather-app2``` in the terminal<br>
 - Next run ```npm install``` to install the necessary dependencies<br>
 - Run ```npm run watch``` to have the necessary changes applied if you want to change anything in the codebase and to have a main.js file. Without this command, the app won't run.
+- You need to add your API_TOKEN into the .env file and put it in your root folder. When you assign the value to API_TOKEN use this kind of syntax. I mean one double quatation and one single quatation like this ```API_TOKEN="'your_api_token'"```. Otherwise Webpack throws an error.
+- You can get your Api key from [openweathermap](https://home.openweathermap.org/users/sign_up). 
 - Finally run the 'index.html' with 'Live Server' to start the application.<br>
 
 ## Authors
